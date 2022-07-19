@@ -2,7 +2,7 @@ import AsideStyled, { Li, Ul, Bar } from "./Aside.styled";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "./aside.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Aside = () => {
   const [isMinimized, setIsMinimized] = useState(false);
@@ -10,8 +10,6 @@ const Aside = () => {
   const handleMinimized = () => {
     setIsMinimized(!isMinimized);
   };
-
-  // useEffect(() => {}, [isMinimized]);
 
   return (
     <AsideStyled isMinimized={isMinimized}>

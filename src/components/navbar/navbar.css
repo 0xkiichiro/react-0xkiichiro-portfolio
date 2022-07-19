@@ -1,0 +1,10 @@
+.active {
+  background-color: #1e1e1e;
+}
+
+.tab-icon {
+  transform: translateY(3px);
+  /* position: relative; */
+  /* color: #a4adb4; */
+  color: #ba000d;
+}
