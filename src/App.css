@@ -5,13 +5,3 @@
   font-family: "Space Mono", monospace;
   font-weight: 500;
 }
-
-.App {
-  height: 100vh;
-  color: #a4adb4;
-  background-color: #1e1e1e;
-}
-
-.page-container {
-  display: flex;
-}
