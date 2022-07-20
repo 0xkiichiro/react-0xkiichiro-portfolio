@@ -2,14 +2,11 @@ import AsideStyled, { Li, Ul, Bar } from "./Aside.styled";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "./aside.css";
-import { useState } from "react";
+import { useContext } from "react";
+import { Context } from "../../context/Context";
 
 const Aside = () => {
-  const [isMinimized, setIsMinimized] = useState(false);
-
-  const handleMinimized = () => {
-    setIsMinimized(!isMinimized);
-  };
+  const { isMinimized, handleMinimized } = useContext(Context);
 
   return (
     <AsideStyled isMinimized={isMinimized}>

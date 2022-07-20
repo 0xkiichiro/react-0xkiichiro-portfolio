@@ -4,11 +4,15 @@ import AboutMe from "../../pages/about-me/AboutMe";
 import Projects from "../../pages/projects/Projects";
 import Contact from "../../pages/contact/Contact";
 import { MdOutlineRemoveCircle } from "react-icons/md";
+import { useContext } from "react";
+import { Context } from "../../context/Context";
 import "./navbar.css";
 
 const Navbar = () => {
+  const { isMinimized } = useContext(Context);
+
   return (
-    <NavbarStyled>
+    <NavbarStyled isMinimized={isMinimized}>
       <Tab className="active">
         <LinkStyled to="/" element={<Home />}>
           home

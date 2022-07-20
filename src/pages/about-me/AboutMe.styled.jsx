@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 const AboutMeStyled = styled.div`
-  /* margin-left: 256px; */
+  position: absolute;
+  top: 40px;
+  left: ${(props) => (props.isMinimized ? "30px" : "256px")};
   padding: 2rem;
+  transition: 0.45s ease-in-out;
 `;
 
 export default AboutMeStyled;

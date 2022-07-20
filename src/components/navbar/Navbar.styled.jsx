@@ -5,8 +5,9 @@ const NavbarStyled = styled.nav`
   position: fixed;
   width: 100%;
   display: flex;
-  margin-left: 256px;
+  margin-left: ${(props) => (props.isMinimized ? "25px" : "256px")};
   background-color: #383838;
+  transition: 0.45s ease-in-out;
 `;
 
 export const Tab = styled.div`
