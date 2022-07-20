@@ -19,7 +19,7 @@ const AsideStyled = styled.div`
 export const Bar = styled.div`
   height: 2px;
   background-color: hotpink;
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
 `;
 
 export const Li = styled.li`

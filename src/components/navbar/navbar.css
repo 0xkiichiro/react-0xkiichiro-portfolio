@@ -8,3 +8,7 @@
   /* color: #a4adb4; */
   color: #ba000d;
 }
+
+.tab-icon:hover {
+  cursor: pointer;
+}

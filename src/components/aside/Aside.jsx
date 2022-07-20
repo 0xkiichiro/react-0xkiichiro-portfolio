@@ -2,11 +2,13 @@ import AsideStyled, { Li, Ul, Bar } from "./Aside.styled";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import "./aside.css";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Context } from "../../context/Context";
 
 const Aside = () => {
-  const { isMinimized, handleMinimized } = useContext(Context);
+  const { isMinimized, handleMinimized, handleLinkClick } = useContext(Context);
+
+  // useEffect(() => {}, [handleLinkClick]);
 
   return (
     <AsideStyled isMinimized={isMinimized}>
@@ -15,25 +17,45 @@ const Aside = () => {
       <Ul>
         <Li>
           <IoIosArrowForward className="aside-icon" />
-          <Link className="aside-link" to="/">
+          <Link
+            className="aside-link"
+            to="/"
+            id="home"
+            onClick={(e) => handleLinkClick(e)}
+          >
             home
           </Link>
         </Li>
         <Li>
           <IoIosArrowForward className="aside-icon" />
-          <Link className="aside-link" to="about-me">
+          <Link
+            className="aside-link"
+            to="about-me"
+            id="about-me"
+            onClick={(e) => handleLinkClick(e)}
+          >
             about-me
           </Link>
         </Li>
         <Li>
           <IoIosArrowForward className="aside-icon" />
-          <Link className="aside-link" to="projects">
+          <Link
+            className="aside-link"
+            to="projects"
+            id="projects"
+            onClick={(e) => handleLinkClick(e)}
+          >
             projects
           </Link>
         </Li>
         <Li>
           <IoIosArrowForward className="aside-icon" />
-          <Link className="aside-link" to="contact">
+          <Link
+            className="aside-link"
+            to="contact"
+            id="contact"
+            onClick={(e) => handleLinkClick(e)}
+          >
             contact
           </Link>
         </Li>
