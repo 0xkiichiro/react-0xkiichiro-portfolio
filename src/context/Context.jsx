@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 export const Context = createContext();
 
 const ContextProvider = ({ children }) => {
-  const [isMinimized, setIsMinimized] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(true);
   const [navArr, setNavArr] = useState([]);
   const [isActive, setIsActive] = useState();
 

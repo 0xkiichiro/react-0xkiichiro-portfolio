@@ -3,7 +3,6 @@
   /* position: relative; */
   /* color: #a4adb4; */
   color: #ba000d;
-  margin-left: 1rem;
 }
 
 .tab-icon:hover {
@@ -11,8 +10,10 @@
 }
 
 .icon-div {
+  width: 1rem;
 }
 
 .active {
   background-color: #1e1e1e !important;
+  border-bottom: 1px solid #1e1e1e !important;
 }

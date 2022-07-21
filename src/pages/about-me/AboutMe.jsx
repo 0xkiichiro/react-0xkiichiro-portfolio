@@ -8,7 +8,7 @@ const AboutMe = () => {
 
   return (
     <AboutMeStyled isMinimized={isMinimized}>
-      <h1>About me</h1>
+      <h1 className="heading">About me</h1>
       <Header />
     </AboutMeStyled>
   );

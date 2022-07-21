@@ -5,3 +5,7 @@
   font-family: "Space Mono", monospace;
   font-weight: 500;
 }
+
+.heading {
+  padding-bottom: 1rem;
+}

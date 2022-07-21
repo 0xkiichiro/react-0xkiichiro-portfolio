@@ -1,5 +1,5 @@
 .aside-icon {
-  transform: translateY(3px);
+  transform: translateY(5px);
   position: relative;
 }
 
@@ -10,6 +10,10 @@
   font-weight: 500;
   color: aliceblue;
   /* width: 100%; */
+}
+
+.aside-heading {
+  padding-bottom: 0.5rem;
 }
 
 .aside-link:focus {

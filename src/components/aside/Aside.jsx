@@ -1,4 +1,4 @@
-import AsideStyled, { Li, Ul, Bar } from "./Aside.styled";
+import AsideStyled, { Li, Ul, Bar, LinkStyled } from "./Aside.styled";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { useContext } from "react";
@@ -10,52 +10,52 @@ const Aside = () => {
 
   return (
     <AsideStyled isMinimized={isMinimized}>
-      <h4>Explorer</h4>
+      <h4 className="aside-heading">Explorer</h4>
       <Bar />
       <Ul>
         <Li>
           <IoIosArrowForward className="aside-icon" />
-          <Link
+          <LinkStyled
             className="aside-link"
             to="/"
             id="home"
             onClick={(e) => handleLinkClick(e)}
           >
             home
-          </Link>
+          </LinkStyled>
         </Li>
         <Li>
           <IoIosArrowForward className="aside-icon" />
-          <Link
+          <LinkStyled
             className="aside-link"
             to="about-me"
             id="about-me"
             onClick={(e) => handleLinkClick(e)}
           >
             about-me
-          </Link>
+          </LinkStyled>
         </Li>
         <Li>
           <IoIosArrowForward className="aside-icon" />
-          <Link
+          <LinkStyled
             className="aside-link"
             to="projects"
             id="projects"
             onClick={(e) => handleLinkClick(e)}
           >
             projects
-          </Link>
+          </LinkStyled>
         </Li>
         <Li>
           <IoIosArrowForward className="aside-icon" />
-          <Link
+          <LinkStyled
             className="aside-link"
             to="contact"
             id="contact"
             onClick={(e) => handleLinkClick(e)}
           >
             contact
-          </Link>
+          </LinkStyled>
         </Li>
       </Ul>
       {!isMinimized ? (
