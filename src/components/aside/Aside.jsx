@@ -14,46 +14,46 @@ const Aside = () => {
       <Bar />
       <Ul>
         <Li>
-          <IoIosArrowForward className="aside-icon" />
           <LinkStyled
             className="aside-link"
             to="/"
             id="home"
             onClick={(e) => handleLinkClick(e)}
           >
+            <IoIosArrowForward className="aside-icon" />
             home
           </LinkStyled>
         </Li>
         <Li>
-          <IoIosArrowForward className="aside-icon" />
           <LinkStyled
             className="aside-link"
             to="about-me"
             id="about-me"
             onClick={(e) => handleLinkClick(e)}
           >
+            <IoIosArrowForward className="aside-icon" />
             about-me
           </LinkStyled>
         </Li>
         <Li>
-          <IoIosArrowForward className="aside-icon" />
           <LinkStyled
             className="aside-link"
             to="projects"
             id="projects"
             onClick={(e) => handleLinkClick(e)}
           >
+            <IoIosArrowForward className="aside-icon" />
             projects
           </LinkStyled>
         </Li>
         <Li>
-          <IoIosArrowForward className="aside-icon" />
           <LinkStyled
             className="aside-link"
             to="contact"
             id="contact"
             onClick={(e) => handleLinkClick(e)}
           >
+            <IoIosArrowForward className="aside-icon" />
             contact
           </LinkStyled>
         </Li>
