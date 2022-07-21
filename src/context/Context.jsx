@@ -5,6 +5,7 @@ export const Context = createContext();
 const ContextProvider = ({ children }) => {
   const [isMinimized, setIsMinimized] = useState(false);
   const [navArr, setNavArr] = useState([]);
+  const [isActive, setIsActive] = useState();
 
   const handleMinimized = () => {
     setIsMinimized(!isMinimized);
@@ -12,6 +13,7 @@ const ContextProvider = ({ children }) => {
 
   const handleLinkClick = (e) => {
     navArr.includes(e.target.id) || setNavArr([e.target.id, ...navArr]);
+    setIsActive(e.target.id);
   };
 
   return (
@@ -23,6 +25,8 @@ const ContextProvider = ({ children }) => {
         navArr,
         setNavArr,
         handleLinkClick,
+        isActive,
+        setIsActive,
       }}
     >
       {children}

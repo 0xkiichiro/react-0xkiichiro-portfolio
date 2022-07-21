@@ -17,10 +17,8 @@ export const Tab = styled.div`
   background-color: #383838;
   border-right: 1px solid gray;
   min-width: 10%;
-  /* margin-top: 0.5rem; */
-  /* &:active {
-    background-color: #1e1e1e;
-  } */
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const LinkStyled = styled(Link)`
