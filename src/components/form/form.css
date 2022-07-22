@@ -1,0 +1,44 @@
+.input-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  border: none;
+  outline: none;
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #a4adb4;
+  color: #a4adb4;
+}
+
+.form-text-area {
+  border: none;
+  outline: none;
+  background-color: #1e1e1e;
+  border: 1px solid #a4adb4;
+  color: #a4adb4;
+  overflow: auto;
+  resize: none;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  color: #a4adb4;
+  background-color: black;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
