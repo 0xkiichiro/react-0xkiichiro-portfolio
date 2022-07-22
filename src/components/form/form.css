@@ -31,12 +31,14 @@
   margin-top: 1rem;
   border: none;
   outline: none;
-  color: #a4adb4;
-  background-color: black;
+  color: #1e1e1e;
+  background-color: #a4adb4;
+  border-radius: 1.5rem;
 }
 
 .btn:hover {
   cursor: pointer;
+  background-color: white;
 }
 
 .btn:active {

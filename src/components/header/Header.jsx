@@ -28,10 +28,7 @@ const Header = () => {
           the side for my hobby projects.
         </p>
         <br />
-        <p>
-          Feel free to contact me for potential collabs! email:
-          0xkiichiro@proton.me
-        </p>
+        <p>Feel free to contact me for potential collabs!</p>
       </main>
     </HeaderStyled>
   );
