@@ -15,6 +15,7 @@ const AsideStyled = styled.div`
   left: ${(props) => (props.isMinimized ? "-230px" : "0%")};
   min-width: 256px;
   transition: 0.45s ease-in-out;
+  z-index: 1;
 `;
 
 export const Bar = styled.div`

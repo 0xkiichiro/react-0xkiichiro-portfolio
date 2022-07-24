@@ -1,0 +1,12 @@
+.list {
+  list-style: circle;
+  padding: 1.5rem;
+}
+
+.list-item {
+  margin: 0.5rem 0;
+}
+
+.link {
+  color: hotpink;
+}

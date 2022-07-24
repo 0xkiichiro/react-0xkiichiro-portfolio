@@ -7,6 +7,7 @@ const FooterStyled = styled.footer`
   height: 64px;
   text-align: center;
   font-size: 0.8rem;
+  background-color: #1e1e1e;
 `;
 
 export default FooterStyled;
