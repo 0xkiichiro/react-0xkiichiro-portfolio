@@ -11,10 +11,14 @@ const ProjectsStyled = styled.div`
 `;
 
 export const GridContainer = styled.div`
-  display: grid;
+  display: flex;
   width: 100%;
-  grid-gap: 32px 20px;
-  grid-template-columns: repeat(4, 1fr);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem 0;
+  /* grid-gap: 32px 20px;
+  grid-template-columns: repeat(4, 1fr); */
 `;
 
 export default ProjectsStyled;

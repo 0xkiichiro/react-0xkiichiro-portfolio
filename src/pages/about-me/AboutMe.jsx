@@ -10,6 +10,7 @@ const AboutMe = () => {
     <AboutMeStyled isMinimized={isMinimized}>
       <h1 className="heading">About me</h1>
       <Header />
+      <h2 className="heading">Previous Experiences</h2>
     </AboutMeStyled>
   );
 };
