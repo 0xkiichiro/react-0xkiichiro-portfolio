@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-0xkiichiro-portfolio/static/css/main.bb885cc6.css",
+    "main.js": "/react-0xkiichiro-portfolio/static/js/main.32c13529.js",
+    "index.html": "/react-0xkiichiro-portfolio/index.html",
+    "main.bb885cc6.css.map": "/react-0xkiichiro-portfolio/static/css/main.bb885cc6.css.map",
+    "main.32c13529.js.map": "/react-0xkiichiro-portfolio/static/js/main.32c13529.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb885cc6.css",
+    "static/js/main.32c13529.js"
+  ]
+}
