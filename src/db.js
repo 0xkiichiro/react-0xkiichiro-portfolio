@@ -39,7 +39,8 @@ const data = [
     tech: ["HTML", "CSS", "SCSS"],
     libraryLink: [],
     liveSite: "https://0xkiichiro.github.io/sass-project/index.html",
-    screenshot: "",
+    screenshot:
+      "https://raw.githubusercontent.com/0xkiichiro/sass-project/master/Screenshot.png",
     github: "https://github.com/0xkiichiro/sass-project",
   },
   {
