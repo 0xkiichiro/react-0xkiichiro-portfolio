@@ -87,7 +87,7 @@ const data = [
     github: "https://github.com/0xkiichiro/habit-tracker",
   },
   {
-    id: 8,
+    id: 27,
     name: "Single Page Application",
     desc: "Made a single page app for a bootcamp company. Made a carousel, cards, modal , contact me and location snippet. This is a code along project. This project is mainly to solidify Bootstrap classes. fslightbox JS plugin used to focus on fullscreen pictures. Plugin link: https://fslightbox.com/ Some responsiveness added.",
     tech: ["HTML", "CSS", "JS"],
