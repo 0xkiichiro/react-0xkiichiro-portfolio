@@ -18,7 +18,6 @@ export const GridContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem 0;
-  background-color: #1e1e1e;
   /* grid-gap: 32px 20px;
   grid-template-columns: repeat(4, 1fr); */
 `;

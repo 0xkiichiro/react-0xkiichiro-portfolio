@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const AsideStyled = styled.div`
-  position: relative;
+  position: fixed;
   height: 100vh;
   padding: 0.5rem 0;
   padding-left: 1rem;
@@ -16,6 +16,8 @@ const AsideStyled = styled.div`
   min-width: 256px;
   transition: 0.45s ease-in-out;
   z-index: 1;
+  /* top: 0;
+  left: 0; */
 `;
 
 export const Bar = styled.div`
