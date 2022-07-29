@@ -1,0 +1,49 @@
+.project-card-heading {
+  /* text-align: center; */
+  padding-left: 0.5rem;
+}
+
+.project-card-img {
+  object-fit: cover;
+  object-position: top center;
+}
+
+.project-tech {
+  color: gold;
+}
+
+.project-github-icon {
+  font-size: 2rem;
+  float: right;
+  margin-right: 1rem;
+}
+
+.project-github-icon:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.project-github-icon:active {
+  transform: scale(1.1);
+}
+
+.project-info {
+  padding: 0.25rem 0.5rem;
+  text-align: justify;
+}
+
+.project-tech-div {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-github-div {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.live-site-link {
+  color: hotpink;
+}
