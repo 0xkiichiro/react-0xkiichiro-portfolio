@@ -7,6 +7,7 @@ const ProjectsStyled = styled.div`
   width: ${(props) =>
     props.isMinimized ? "calc(100% - 30px)" : "calc(100% - 256px)"};
   padding: 2rem;
+  padding-bottom: 5rem;
   transition: 0.45s ease-in-out;
 `;
 

@@ -17,7 +17,8 @@ const data = [
     tech: ["HTML", "CSS", "JS"],
     libraryLink: [],
     liveSite: "https://0xkiichiro.github.io/parallax-website/",
-    screenshot: "",
+    screenshot:
+      "https://raw.githubusercontent.com/0xkiichiro/parallax-website/master/Screenshot.png",
     github: "https://github.com/0xkiichiro/parallax-website",
   },
   {
@@ -92,7 +93,8 @@ const data = [
     tech: ["HTML", "CSS", "JS"],
     libraryLink: ["Bootstrap"],
     liveSite: "https://0xkiichiro.github.io/habit-tracker/",
-    screenshot: "",
+    screenshot:
+      "https://raw.githubusercontent.com/0xkiichiro/bootstrap-project/master/Screenshot.png",
     github: "https://github.com/0xkiichiro/bootstrap-project",
   },
   {
@@ -146,7 +148,8 @@ const data = [
     tech: ["HTML", "CSS", "JS", "React.js"],
     libraryLink: [],
     liveSite: "https://0xkiichiro.github.io/tour-places-react-project/",
-    screenshot: "",
+    screenshot:
+      "https://raw.githubusercontent.com/0xkiichiro/tour-places-react-project/master/Screenshot.png",
     github: "https://github.com/0xkiichiro/tour-places-react-project",
   },
   {
@@ -295,7 +298,8 @@ const data = [
       "Firebase: https://firebase.google.com/?gclsrc=ds&gclid=CLmp7cOymfkCFa5IHQkdjEUAEA&gclsrc=ds",
     ],
     liveSite: "https://0xkiichiro.github.io/react-movie-app/",
-    screenshot: "",
+    screenshot:
+      "https://raw.githubusercontent.com/0xkiichiro/react-movie-app/master/Screenshot.png",
     github: "https://github.com/0xkiichiro/react-movie-app",
   },
 ];

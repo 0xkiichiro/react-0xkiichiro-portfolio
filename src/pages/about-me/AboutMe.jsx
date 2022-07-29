@@ -86,6 +86,16 @@ const AboutMe = () => {
           </li>
         </ul>
       </DivStyled>
+
+      <h2 className="heading">Education</h2>
+      <DivStyled>
+        Ozyegin University - Civil Engineering B.S.E.
+        <h6>2013-2018</h6>
+        Nisantasi Nuri Akın Highschool
+        <h6>2009-2013</h6>
+        Terakki Foundation Sisli Terakki Primary & Middle School
+        <h6>2000-2009</h6>
+      </DivStyled>
       <h2 className="heading">Hobbies</h2>
       <DivStyled>
         I love trying new things! I enjoy challenging my mind and body in
