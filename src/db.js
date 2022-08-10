@@ -302,6 +302,27 @@ const data = [
     screenshot:
       "https://raw.githubusercontent.com/0xkiichiro/react-movie-app/master/Screenshot.png",
     github: "https://github.com/0xkiichiro/react-movie-app",
+    spotlight: true,
+  },
+  {
+    id: 28,
+    name: "React - Blog Firebase",
+    desc: "A blog site that utilizes firebase auth. and firebase realtime database. You can register and post & like & comment on others posts. This was a really fun project! Looking forward to do more firebase projects! Used Formik & Yup for forms and MUI for design library.",
+    tech: ["HTML", "CSS", "JS", "React.js", "Firebase"],
+    libraryLink: [
+      "React Router: https://reactrouter.com/",
+      "Axios: https://axios-http.com/docs/intro",
+      "React Toastify: https://www.npmjs.com/package/react-toastify",
+      "Firebase: https://firebase.google.com/?gclsrc=ds&gclid=CLmp7cOymfkCFa5IHQkdjEUAEA&gclsrc=ds",
+      "Material UI: https://mui.com/",
+      "Formik: https://formik.org/",
+      "Yup: https://www.npmjs.com/package/yup",
+    ],
+    liveSite: "https://0xkiichiroblog.netlify.app/",
+    screenshot:
+      "https://github.com/0xkiichiro/react-blog-firebase/blob/master/Animation.gif?raw=true",
+    github: "https://t.co/DWdBJ5Xbz7",
+    spotlight: true,
   },
 ];
 
