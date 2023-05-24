@@ -1,9 +1,8 @@
-import AsideStyled, { Li, Ul, Bar, LinkStyled } from "./Aside.styled";
-import { Link } from "react-router-dom";
-import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
-import { useContext } from "react";
-import { Context } from "../../context/Context";
-import "./aside.css";
+import AsideStyled, { Li, Ul, Bar, LinkStyled } from './Aside.styled';
+import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
+import { useContext } from 'react';
+import { Context } from '../../context/Context';
+import './aside.css';
 
 const Aside = () => {
   const { isMinimized, handleMinimized, handleLinkClick } = useContext(Context);
@@ -44,6 +43,17 @@ const Aside = () => {
             onClick={(e) => handleLinkClick(e)}
           >
             projects
+          </LinkStyled>
+        </Li>
+        <Li>
+          <IoIosArrowForward className="aside-icon" />
+          <LinkStyled
+            className="aside-link"
+            to="blog"
+            id="blog"
+            onClick={(e) => handleLinkClick(e)}
+          >
+            blog
           </LinkStyled>
         </Li>
         <Li>
